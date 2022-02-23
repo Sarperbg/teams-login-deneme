@@ -1,0 +1,95 @@
+.modern-view {
+  width: 3rem;
+  height: 3rem;
+  margin-top: 2.5rem;
+  margin-left: 2.5rem;
+}
+.content {
+  width: 969px;
+  height: 400px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  flex-direction: row;
+}
+.content-1 {
+  margin-top: auto;
+  margin-bottom: auto;
+  position: relative;
+  text-align: left;
+  display: -webkit-box;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #605e5c;
+  font-size: 1.4rem;
+  line-height: 1.2857;
+}
+#verticle {
+  border-left: 0.1rem solid #e1dfdd;
+  width: 1;
+  height: 100%;
+  margin: 0.5rem 6.4rem;
+  display: flex;
+}
+.content-1 h1 {
+  color: #252424;
+  font-weight: bold;
+  margin: 0;
+}
+.content-2 {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;  
+  width: 420px;
+  height: 104px;
+  margin-left: 60%;
+  position: relative;
+}
+.btn-primary {
+  position: relative;
+  background: white;
+  border-radius: 0.4rem;
+  box-shadow: 0 0.16rem 0.36rem 0 rgb(0 0 0 / 13%),
+    0 0.03rem 0.09rem 0 rgb(0 0 0 / 11%);
+  cursor: pointer;
+  -webkit-box-flex: 1;
+  flex: 1 1 0;
+}
+.btn .img {
+  width: 4rem;
+  height: 4rem;
+  margin: auto 3.2rem;
+}
+.btn.primary .text {
+  margin: 3.2rem 0;
+}
+.btn.primary h3 {
+  color: #252423;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.btn.primary p {
+  color: #605e5c;
+  font-size: 1.4rem;
+  line-height: 1.2857;
+  margin: 0;
+}
+.footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+ 
+
+}
+.footer p {
+  font-weight: normal;
+  outline: none;
+  color: #979593;
+  margin: 1rem;
+}
